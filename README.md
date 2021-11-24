@@ -46,7 +46,7 @@ This creates two new folders next to your `docker-compose.yml` file.
 * `wp-data` – used to store and restore database dumps
 * `wp-app` – the location of your WordPress application
 
-The containers are now built and running. You should be able to access the WordPress installation with the configured IP in the browser address. By default it is `http://127.0.0.1`.
+The containers are now built and running. You should be able to access the WordPress installation with the configured IP in the browser address. By default it is `http://127.0.0.1:8080`.
 
 For convenience you may add a new entry into your hosts file.
 
@@ -154,6 +154,6 @@ wp plugin list
 
 ### phpMyAdmin
 
-You can also visit `http://127.0.0.1:8080` to access phpMyAdmin after starting the containers.
+You can also visit `http://127.0.0.1:8081` to access phpMyAdmin after starting the containers.
 
 The default username is `root`, and the password is the same as supplied in the `.env` file.
